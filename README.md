@@ -1,10 +1,14 @@
 # NgFirebasedbToCsv
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Requirements
+
+This project was built and tested using:
+    - `Angular CLI`: 16.2.3 and 16.2.4
+    - `Node`: 16.20.1 and 18.18.0
+    - `Package Manager`: npm 8.19.4 and 9.8.1
+    - `OS`: win32 x64 and linux x64
 
 ## Code scaffolding
 
