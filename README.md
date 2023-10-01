@@ -1,31 +1,30 @@
-# NgFirebasedbToCsv
+# ng-firebase-db-to-csv
 
-
+This is a simple web application built in Angular which provides a button which allows you to download the contents of a [Firebase](https://firebase.google.com/) database to a CSV. 
 
 ## Requirements
 
-This project was built and tested using:
-    - `Angular CLI`: 16.2.3 and 16.2.4
-    - `Node`: 16.20.1 and 18.18.0
-    - `Package Manager`: npm 8.19.4 and 9.8.1
-    - `OS`: win32 x64 and linux x64
+This project requires Node.js and Angular on the system it is running. It was built and tested using:
+   - `Angular CLI`: 16.2.3 and 16.2.4
+   - `Node`: 16.20.1 and 18.18.0
+   - `Package Manager`: npm 8.19.4 and 9.8.1
+   - `OS`: win32 x64 and linux x64
 
-## Code scaffolding
+Once you have Node.js and Angular running, you must put a JSON file called `ng-firebasedb-to-csv.json` in a directory called `sysinfo`. The `sysinfo` directory must have the same parent directory as this project's directory.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```json
 
-## Build
+    {
+        "key1": "value1",
+        "key2": "value2"
+    }
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```
 
-## Running unit tests
+## Run Code
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Verify that your JSON file is correctly formatted and in the right directory. Run `cat ../sysinfo/ng-firebasedb-to-csv.json` and that should output the contents of your JSON file.
 
-## Running end-to-end tests
+Once you have the requirements installed, you can run this web app with the Angular command: `ng serve`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+The web app will then be running at `http://localhost:4200`
