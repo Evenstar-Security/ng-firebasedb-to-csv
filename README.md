@@ -10,7 +10,7 @@ This project requires Node.js and Angular on the system it is running. It was bu
    - `Package Manager`: npm 8.19.4 and 9.8.1
    - `OS`: win32 x64 and linux x64
 
-Once you have Node.js and Angular running, you must put a JSON file called `ng-firebasedb-to-csv.json` in a directory called `sysinfo`. The `sysinfo` directory must have the same parent directory as this project's directory.
+Once you have Node.js and Angular running, you must put a JSON file called `ng-firebasedb-to-csv.json` in a directory called `sysinfo`. The `sysinfo` directory must have the same parent directory as this project's directory. The JSON file must have the following contents:
 
 ```json
 
