@@ -13,8 +13,9 @@ export class AppComponent {
   items = this.csvserviceservice.getItems();
 
   csvForm = this.formBuilder.group({
-    name: '',
-    address: ''
+    project: '',
+    collection: '',
+    document: ''
   });
 
   constructor(
@@ -24,8 +25,6 @@ export class AppComponent {
 
   onSubmit(): void {
     // Process checkout data here
-    this.items = this.csvserviceservice.clearCart();
-    console.warn('Your order has been submitted', this.csvForm.value);
-    this.csvForm.reset();
+    alert(this.csvForm.value.project);
   }
 }

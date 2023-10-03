@@ -33,6 +33,7 @@
       <h1 class="display-4 text-light">Firebase Firestore to CSV Generator</h1>
     </div>
     <div class="col">
+      <img src="/favicon.ico" width="100">
     </div>
   </div>
 </div>
@@ -45,15 +46,15 @@
         <input type="text" id="login_token" name="login_token" hidden>
         <div class="form-group">
           <label for="InputProjectID">Project ID</label>
-          <input type="text" class="form-control" id="InputProjectID" aria-describedby="emailHelp" name="project">
+          <input type="text" class="form-control" id="InputProjectID" aria-describedby="emailHelp" formControlName="project">
         </div>
         <div class="form-group">
           <label for="InputCollectionID">Collection ID</label>
-          <input type="text" class="form-control" id="InputCollectionID" name="collection">
+          <input type="text" class="form-control" id="InputCollectionID" formControlName="collection">
         </div>
         <div class="form-group">
           <label for="InputDocumentID">Document ID</label>
-          <input type="text" class="form-control" id="InputDocumentID" name="document">
+          <input type="text" class="form-control" id="InputDocumentID" formControlName="document">
         </div>
         <button type="submit" class="btn btn-dark">Get CSV</button>
       </form>
